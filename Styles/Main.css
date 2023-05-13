@@ -12,8 +12,14 @@
   padding: 0;
   box-sizing: border-box;
 }
-h1,h2,p,h3,h4,h5,h6{
-    margin: 0 !important;
+h1,
+h2,
+p,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 !important;
 }
 .Hero-section {
   height: 768px;
@@ -92,7 +98,7 @@ h1,h2,p,h3,h4,h5,h6{
 .Uiux-container {
   width: 1108px;
 
-  padding: 40px 0 40px 123px;
+  padding: 65px 0 65px 123px;
 }
 .Uiux-text {
   font-size: 24px;
@@ -100,4 +106,47 @@ h1,h2,p,h3,h4,h5,h6{
   line-height: 40px;
   letter-spacing: 0px;
   text-align: left;
+}
+.Contentsection1 > div:nth-child(2) > .badge,
+.Contentsection3 > div:nth-child(2) > .badge {
+  border-radius: 0;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.Contentsection3 > div:nth-child(2) > .badge {
+
+  color: #02c1d8;
+}
+.Contentsection2 > div:nth-child(1) > .badge {
+  border-radius: 0;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #69a427;
+}
+.Contentsection1 > div:last-child {
+  background-color: #0f0506;
+  padding: 87px 0 0px 60px;
+}
+.Contentsection3 > div:last-child {
+  background: #02c1d8;
+  padding: 87px 0 0px 60px;
+}
+.Contentsection2 > div:first-child {
+  background: #69a427;
+  padding: 87px 0 0px 60px;
+}
+.Contentsection-heading {
+  color: #fff;
+  font-size: 50px;
+  line-height: 60px;
+}
+.Contentsection-text {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.73);
 }
