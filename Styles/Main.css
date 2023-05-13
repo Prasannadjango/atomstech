@@ -1,2 +1,103 @@
-@import 'Responsive.css';
-@import 'Bootstrap.css';
+@import "Responsive.css";
+@import "Bootstrap.css";
+
+@font-face {
+  font-family: "webfont";
+  src: url(../Fonts/Outfit-Regular.otf), url(../Fonts/Outfit-Regular.ttf),
+    url(../Fonts/Outfit-Regular.woff), url(../Fonts/Outfit-Regular.woff2);
+}
+* {
+  font-family: "webfont";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,h2,p,h3,h4,h5,h6{
+    margin: 0 !important;
+}
+.Hero-section {
+  height: 768px;
+  background-position: center;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url(../Images/Bannerimage.png);
+}
+.navbar-nav li a {
+  color: #fff;
+  font-size: 15px;
+}
+.navbar {
+  padding-top: 25px;
+  border-bottom: 1px solid #fff;
+}
+.Slidermain-txt {
+  font-size: 45px;
+}
+.Slider-container {
+  position: absolute;
+  width: 488px;
+  height: 250px;
+  left: 130px;
+  color: #fff;
+  top: 237px;
+}
+.Color-txt1 {
+  color: #ffcb41;
+}
+.Color-txt2 {
+  color: #fd6767;
+}
+.Color-txt3 {
+  color: #63c5ed;
+}
+.Slider-btn {
+  font-weight: bold;
+  color: #fff;
+  font-size: 16px;
+}
+.carousel-indicators {
+  bottom: -126px;
+  justify-content: flex-start !important;
+}
+.carousel-indicators .active {
+  width: 16px !important;
+}
+.carousel-indicators [data-bs-target] {
+  width: 6px;
+}
+
+.Uiux-heading {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 42px;
+  letter-spacing: 0px;
+  color: #6100a5;
+
+  text-align: left;
+}
+.News-badge {
+  width: 172px;
+
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+
+  color: #fff;
+  background-color: #6100a5;
+  height: 29px;
+  border-radius: 0;
+}
+.Uiux-container {
+  width: 1108px;
+
+  padding: 40px 0 40px 123px;
+}
+.Uiux-text {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: left;
+}
