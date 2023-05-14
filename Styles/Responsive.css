@@ -1,0 +1,46 @@
+@media (min-width:320px) and (max-width:450px){
+    .Uiux-container {
+        width: 100% !important;
+        padding: 20px 15px 20px 15px !important;
+        
+    }
+    .Slider-container{
+        position: static !important;
+         width: 100% !important;
+         padding: 0 15px;
+    } 
+    .Contentsection1 ,
+    .Contentsection2,
+    .Contentsection3,
+    .Testimonial-section,
+    .Connectwithus-maincontainer,
+    .Customersay-container{
+        flex-direction: column;
+    }
+    .Connectwithus-maincontainer div:nth-child(2) > p{
+        width: 100% !important;
+    }
+    .Connectwithus-maincontainer div:nth-child(2),
+    .Contentsection1 > div:last-child,
+    .Contentsection2 > div:first-child,
+    .Contentsection3 > div:last-child,
+    .Testimonial-section,
+    .Footer-containerlink{
+        padding: 20px  !important;
+    }
+    .Testimonial-section > div:nth-child(2){
+        padding-left: 15px !important;
+    }
+    .Testimonial-section > div:nth-child(2){
+        background-position: center;
+    }
+    .Testimonial-section > div:nth-child(1){
+        padding-bottom: 20px;
+    }
+    .Footer-container{
+        padding-bottom: 10px !important;
+    }
+    .Footer-containerlink > .row::after{
+        margin: 30px 0;
+    }
+}
