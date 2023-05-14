@@ -4452,7 +4452,7 @@ fieldset:disabled .btn {
 }
 .navbar-toggler-icon {
   border: none;
-  background-image: url("../Images/justify-right.svg") !important;
+  background-image: url("../Images/text-right.svg") !important;
 }
 .navbar-light .navbar-text {
   color: rgba(0, 0, 0, 0.55);
