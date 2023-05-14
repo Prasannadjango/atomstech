@@ -150,3 +150,163 @@ h6 {
   font-size: 20px;
   color: rgba(255, 255, 255, 0.73);
 }
+.Testimonial-section {
+  max-width: 950px;
+  padding: 70px 0px;
+}
+.review-text{
+ 
+font-size: 16px;
+font-weight: 300;
+line-height: 26px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+.review-text2{
+color: #6100A5;
+font-size: 36px;
+font-weight: 500;
+line-height: 42px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+.reviewer-name{
+ 
+font-size: 14px;
+font-weight: bold;
+line-height: 26px;
+letter-spacing: 0px;
+text-align: left;
+color: #6100A5;
+}
+.Testimonial-section > div:nth-child(2){
+  padding-left: 100px;
+}
+.Career-text{
+ 
+font-size: 20px;
+font-weight: 400;
+line-height: 31px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+.Career-btn{
+ color: #6100A5;
+font-size: 16px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+.Testimonial-section > div:nth-child(2){
+  background-image: url(../Images/Group\ 228.png);
+ background-position: right;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+.Connectwithus-container{
+ background-repeat: no-repeat;
+ background-position: center;
+background-size: cover;
+ padding: 50px;
+ background-image: url(../Images/Rectangle\ 721.png);
+}
+.Connectwithus-maincontainer{
+  background-color: #6400A7;
+}
+.Connectwithus-container p {
+  width: 254px;
+  color: #fff;
+font-size: 50px;
+font-weight: 400;
+line-height: 50px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+.Connectwithus-maincontainer div:nth-child(2) {
+  padding: 50px 0 0 30px;
+}
+.Connectwithus-maincontainer div:nth-child(2) > p{
+  font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 31px;
+width: 500px;
+
+
+color: rgba(255, 255, 255, 0.69);
+}
+.Footer-container{
+  background: #340045;
+  padding-bottom: 22px;
+
+}
+.Footer-containerlink  > .row{
+  max-width: 1108px;
+  
+}
+.Footer-heading{
+  font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+color: #FFFFFF;
+}
+.Footer-list{
+  font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 27px;
+width: 227px;
+color: #B6B6B6;
+}
+.Lauch-form > input{
+  background-color: transparent;
+  border-radius: 0;
+  margin-top: 15px;
+  border: 0.5px solid rgba(255, 255, 255, 0.62);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-size: 14px;
+
+  
+}
+.Lauch-form > input:focus{
+ background-color: transparent !important;
+ box-shadow: none;
+ outline: none;
+}
+.Lauch-form > input ::placeholder{
+  color: #B6B6B6;
+}
+.Lauch-form > button{
+padding: 0;
+position: absolute;
+right: 0;
+top: 5%;
+}
+.Footer-containerlink  > .row::after{
+  content: '';
+  width: 100%;
+  height: 1px;
+  background-color: #6D5376;
+
+}
+.Footer-containerlink > p{
+
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 26px;
+
+
+text-align: center;
+
+color: #FFFFFF;
+}
